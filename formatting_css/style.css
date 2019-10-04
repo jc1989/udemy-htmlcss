@@ -1,0 +1,37 @@
+* { /*Effects all elements*/
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 18px;
+    font-family: helvetica 'Courier New', Arial, Helvetica, sans-serif, monospace
+}
+
+h1, h2{
+    color:rgba(0, 170, 28, 0.938); /*To make transparent, this could be written as rgb(29,167,23,0.75)*/
+}
+
+h1{
+    font-size:40px;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-size:25px;
+    margin-bottom: 10px;
+}
+
+.main-text{
+    text-align:justify;
+    margin-bottom:20px;
+}
+/*
+#author-text{
+    font-size:22px; /*ID's can only be used once, so its bad practice to use them
+}*/
+
+.author-text{
+    font-size:22px;
+}
