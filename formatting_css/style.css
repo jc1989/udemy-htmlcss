@@ -34,4 +34,62 @@ h2{
 
 .author-text{
     font-size:22px;
+    float:left;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.container{
+    width:1140px;
+    /*margin-left: auto; Applies a margin on the left to center content
+    margin-right: auto; Applies a margin on the right to center content
+    margin-top: 20px; Applies a margin to the top of the content, to push the divs down*/
+    margin: 20px auto 0 auto; /*top right bottom left*/
+}
+
+.blog-post{
+    width: 75%;
+    float:left; /*element can be pushed to the left or right to allow movement around it*/
+    padding-right: 30px;
+    position:relative;
+}
+
+.other-posts{
+    width: 25%;
+    float:left;
+}
+
+.author-box{
+    padding: 20px;
+    /*background-color:blue;*/
+    border-top: 1px solid rgb(78, 78, 78);
+}
+
+.clearfix:after{
+    content:"";
+    display: table;
+    clear:both; /*cleared the two blog post divs of eachother and positioned the author box at the bottom instead of the side*/
+}
+
+.other{
+    margin-bottom:40px;
+}
+
+.author-box img{
+    height: 100px; 
+    width: 100px;
+    border-radius: 50%; /*Makes a circle around the image*/
+    float:left;
+}
+
+.blog-post img{
+    height: 150px;
+    width: auto;
+
+}
+
+.date{
+    position: absolute; /*To move the date where we want it, the parent element, being the blog-post div needs to be set to position-relative, and this set to position-absolute*/
+    top:10px; /*This is absolute positioning.*/
+    right:30px;
 }
