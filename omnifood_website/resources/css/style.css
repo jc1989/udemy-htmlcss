@@ -18,13 +18,6 @@ html{
     margin: 0 auto; /*Top right bottom left OR top/bottom right/left*/
 }
 
-header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.705),rgba(0, 0, 0, 0.705)), url(img/hero.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-}
-
 .hero-text-box{
     position:absolute;
     width:1140px;
