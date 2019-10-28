@@ -106,6 +106,19 @@ h2:after{
     margin-bottom: 10px;
 }
 
+.icon-small{
+    display:inline-block; /*To assign width to them*/
+    width:30px;
+    text-align:center;
+    color:#e67e22;
+    margin-right:10px;
+
+    /*Secrets to aligning icons and text*/
+    line-height:120%;
+    vertical-align: middle;
+    margin-top:-6px;
+}
+
 /*---------BUTTONS---------*/
 
 .btn:link,
@@ -311,22 +324,12 @@ header {
 /*---------------------------------------------*/
 
 
-.cities-photo{
-    margin: 0;
+.box img{
+    width:100%;
+    height:auto;
+    margin-bottom:15px;
 }
 
-.cities-photo img{
-    height: 150px;
-    width: auto;
-}
-
-.cities-showcase{
-    list-style: none;
-    margin-left: 10%;
-}
-
-.cities-showcase  li{
-    display:block;
-    float: left;
-    width: 25%;
+.city-feature{
+    margin-bottom:5px;
 }
